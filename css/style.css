@@ -37,6 +37,20 @@ body {
     }
 }
 
+.header-right a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.header-right a span {
+    font-size: 12.5px;
+    color: #000;
+    font-weight: 300;
+    font-family: Inter, sans-serif;
+}
+
 #dotBackground {
     position: absolute;
     bottom: 0;
@@ -159,6 +173,16 @@ body {
     #header {
         padding: 10px 20px;
     }
+    .header-right a {
+        gap: 10px;
+    }
+    .header-right a span {
+        font-size: 11px;
+    }
+    .header-right a img {
+        width: 35px;
+        height: 35px;
+    }
     .wrapper {
         width: 90%;
         margin: 0 auto;
@@ -194,6 +218,16 @@ body {
     #header {
         padding: 10px 20px;
     }
+    .header-right a {
+        gap: 10px;
+    }
+    .header-right a span {
+        font-size: 11px;
+    }
+    .header-right a img {
+        width: 32px;
+        height: 35px;
+    }
     .left-logo {
         width: 80px;
         height: 30px;
@@ -226,6 +260,16 @@ body {
 @media (max-width: 480px) {
     #header {
         padding: 8px 16px;
+    }
+    .header-right a {
+        gap: 8px;
+    }
+    .header-right a span {
+        font-size: 9px;
+    }
+    .header-right a img {
+        width: 30px;
+        height: 30px;
     }
     .left-logo {
         width: 80px;
